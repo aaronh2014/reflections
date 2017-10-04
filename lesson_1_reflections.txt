@@ -1,0 +1,58 @@
+How did viewing a diff between two versions of a file
+ help you see the bug that was introduced?
+  diff shows a minus next to line numbers if the line is in
+    file 1 but not file 2.
+  diff shows a plus next to line nubmers if the the line is in
+    file 2 but not file 1.
+  is this enough for reflectiosn?
+  also keep short lines, otherwise it's less useful.
+
+Question 2.  How could having easy access to the entire history
+ of a file make you a more efficient programmer in the long run?
+  It lets you find bugs you introduced in code you broke.
+  It shows you what you were thinking at various points in time.
+  It lets multiple people collaborate more easily.
+
+Question 3.  Why do you think some version control systems, like Git,
+ allow saving multiple files in one commit, while others, like
+ Google Docs, treat each file seperately?
+   Different tools for different purposes.  Google Docs provides
+   backup functionality for documents as you edit them as a multi-
+   purpose tool.  Git is specifically for programming and recognizes
+   the need to have multiple files for a project.  Git explicitly
+   recognizes the need to break large problems into many small
+   problems.
+
+Question 4.  How can you use the commands git log and git diff to
+ view the history of files?
+  "git log" shows the history of commits, starting with the most
+    recent.
+   "git diff" is useful with "git diff --stat" or "git diff --numstat",
+     the later for inclusion in scripts.  I think "git diff <commitID>"
+     shows all the differences between that and the current branch
+     or that and the orgininal.  Maybe play with that at some point.
+     "git diff <commitID> <anotherCommitID>" will show the diffs
+     between those two versions.
+
+Question 5. How might using version control make you more confident
+ to make changes that could break something?
+   You've got a log of all the changes made, so you can always back up
+   The "bisect" flag on git looks interesting as well, essentially
+   looks like it will do a binary search to help you find the bug
+   if you have a location with the bug and without.  It's easy to
+   make big changes to see if they work without fear of backtracking.
+
+
+Notes:
+  Part of Lesson 1-30:
+    git config --global core.editor "emacs -n -w"
+    git config --global push.default upstream
+    git config --global merg.conflictstyle diff3
+
+Question 6.  How do you want to use Git?  Now that you have your
+  workspace set up, what do you want to try using Git for?
+    I suppose Git is a good way to back up all my work, keep track of
+    changes in case I break things along the way.  I haven't figured
+    out the way to use it though.  How many times a day do I want
+    to push?  Is that the right term?
+    
