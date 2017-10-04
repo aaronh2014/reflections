@@ -22,8 +22,14 @@ porting to another language or platform,
 or attempting multiple solutions,
 or adding new features,
 or working on a different piece of the project.
+Mike Wales adds a new branch whenever he moves on to something different; context-switching.
+Production branch, experimental branch, new features
 
 How do the diagrams help you visualize the branch structure?
+The diagram maps temporal and logical connections into a spatial relation;
+you can easily see the order of changes as well as the logical relationships
+between changes.
+
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
