@@ -33,6 +33,10 @@ between changes.
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
+The feature of "coins" was added into the main branch and caught up with the developement
+that occured on master while coins was being developed.  So great way to colloborate
+and let different people work on different parts.  The diagram captures the seperate
+logical sequences of developement.
 
 What are the pros and cons of Git's automatic merging vs. always doing merges
 manually?
