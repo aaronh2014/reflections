@@ -5,4 +5,7 @@ When would you want to use a remote repository rather than keeping all your work
   Contribution to the wider community, feedback.
 
  Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
- So that you are in control of your development cycle and can choose when to deal with updates.
+ So that you are in control of your development cycle and can choose when to deal with updates.  I'd definitely like to streamline this process though:
+ git add foo.bar
+ git commit -m "Modify foo.bar"
+ git push (on Windows) or git push origin master...enter credentials every single time?  How about I just use a lock screen on my computer?
