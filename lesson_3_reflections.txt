@@ -1,0 +1,5 @@
+When would you want to use a remote repository rather than keeping all your work local?
+  Backup!  Working in different locations, on different comptuers, in different environments!  
+  Testing purposes: Working in different environments seems like the bare minimum for testing compatability.
+  Collaboration!
+  Contribution to the wider community, feedback.
