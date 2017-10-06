@@ -9,3 +9,7 @@ When would you want to use a remote repository rather than keeping all your work
  git add foo.bar
  git commit -m "Modify foo.bar"
  git push (on Windows) or git push origin master...enter credentials every single time?  How about I just use a lock screen on my computer?
+
+Describe the differences between forks, clones, and branches.  When would you use one instead of another?
+  A fork is a clone of a repository on Github, often for the purpose of using code owned by someone else.  A clone is a copy of a repository and is often used to develop on multiple computers.  Branches are used to seperate code development for various reasons; new features, stability, etc.  Fork someone else's code so you can use it.  Clone the code so you can develope on multiple computers.  Introduce branches to seperate logical units in development; new features vs stable for instance.
+  
