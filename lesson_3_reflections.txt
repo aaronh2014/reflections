@@ -3,3 +3,6 @@ When would you want to use a remote repository rather than keeping all your work
   Testing purposes: Working in different environments seems like the bare minimum for testing compatability.
   Collaboration!
   Contribution to the wider community, feedback.
+
+ Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
+ So that you are in control of your development cycle and can choose when to deal with updates.
